@@ -9,6 +9,7 @@
 import Foundation
 
 struct Model:Decodable {
+    let id:Int
     let name:String
     let email:String
 }
